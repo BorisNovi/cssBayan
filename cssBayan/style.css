@@ -28,12 +28,37 @@ img{
     margin-left: 25%;
     display: none;
 }
+.m-title{
+    color: rgb(0, 0, 171);
+}
+.main-container:hover .m-title{
+    color: rgb(0, 0, 0);
+}
 input:checked ~ img{
     display: flex;
 }
 label :hover ~ img{
     display: flex;
 }
-label :hover .plus{
+
+
+/* Plus transform cases */
+.plus{
+    display: none;
+}
+.main-container:hover .plus{
+    display: flex;
+}
+input:checked ~ div .plus{
     transform: rotate(45deg);
 }
+label:hover .plus{
+    transform: rotate(45deg);
+    transition: 0.5s ease;
+}
+img:hover .plus{
+    transform: rotate(45deg);
+    transition: 0.5s ease;
+}
+
+/* .smth :has(input[type='radio']:checked) */
