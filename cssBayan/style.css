@@ -4,37 +4,37 @@
         font-size: 6vh;
     }
 
-.plus {
-    display: none;
-}
+    .plus {
+        display: none;
+    }
 
-input:checked~div .plus {
-    transform: rotate(45deg);
-}
+    input:checked~div .plus {
+        transform: rotate(45deg);
+    }
 
-/* notice: black color when hovered */
-.main-container:hover .m-title {
-    color: rgb(0, 0, 0);
-}
+    /* notice: black color when hovered */
+    .main-container:hover .m-title {
+        color: rgb(0, 0, 0);
+    }
 
-label :hover~img {
-    max-height: 100vh;
-    transition: max-height 0.5s ease-out;
-}
+    label :hover~img {
+        max-height: 100vh;
+        transition: max-height 0.5s ease-out;
+    }
 
-.main-container:hover .plus {
-    display: flex;
-}
+    .main-container:hover .plus {
+        display: flex;
+    }
 
-label:hover .plus {
-    transform: rotate(45deg);
-    transition: 0.5s ease;
-}
+    label:hover .plus {
+        transform: rotate(45deg);
+        transition: 0.5s ease;
+    }
 
-img:hover .plus {
-    transform: 0.5s rotate(45deg) ease;
-    transition: 0.5s ease;
-}
+    img:hover .plus {
+        transform: 0.5s rotate(45deg) ease;
+        transition: 0.5s ease;
+    }
 
 }
 
